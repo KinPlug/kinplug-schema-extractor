@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinPlug Schema Extractor</title>
+</head>
+<body>
+    <div class="kinplug-config">
+        <header class="kinplug-header">
+            <div class="kinplug-logo">
+                <span class="logo-icon">📋</span>
+                <div class="logo-text">
+                    <h1>Schema Extractor</h1>
+                    <span class="brand">by KinPlug</span>
+                </div>
+            </div>
+            <div class="version-badge">v1.0.1</div>
+        </header>
+
+        <main class="kinplug-content">
+            <section class="info-card">
+                <h2>📊 What This Plugin Does</h2>
+                <p>Adds an "Export App Schema" button to the record list view that extracts comprehensive app documentation to CSV.</p>
+            </section>
+
+            <section class="features-card">
+                <h2>✨ Exported Data</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <span class="feature-icon">🏷️</span>
+                        <div class="feature-text">
+                            <strong>App Info</strong>
+                            <span>App ID & Name</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📝</span>
+                        <div class="feature-text">
+                            <strong>Field Details</strong>
+                            <span>Label, Code, Type, Required, Options, Defaults</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🔒</span>
+                        <div class="feature-text">
+                            <strong>Unique Constraint</strong>
+                            <span>Prohibit duplicate values setting</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📑</span>
+                        <div class="feature-text">
+                            <strong>Subtable Fields</strong>
+                            <span>Nested fields with parent reference</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🔄</span>
+                        <div class="feature-text">
+                            <strong>Process Management</strong>
+                            <span>Statuses & Actions</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div class="feature-text">
+                            <strong>Assignees</strong>
+                            <span>Action & Status assignees</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="usage-card">
+                <h2>🚀 How to Use</h2>
+                <ol>
+                    <li>Save this plugin configuration</li>
+                    <li>Go to the app's record list view</li>
+                    <li>Click the <strong>"📊 Export App Schema"</strong> button in the header</li>
+                    <li>CSV file downloads automatically</li>
+                </ol>
+            </section>
+
+            <section class="no-config-notice">
+                <span class="notice-icon">ℹ️</span>
+                <span>No configuration required. Just save and start using!</span>
+            </section>
+        </main>
+
+        <footer class="kinplug-footer">
+            <div class="footer-buttons">
+                <button type="button" id="cancel" class="btn btn-secondary">Cancel</button>
+                <button type="button" id="submit" class="btn btn-primary">Save</button>
+            </div>
+            <div class="footer-brand">
+                <a href="https://kinplug.com" target="_blank">kinplug.com</a>
+                <span class="separator">|</span>
+                <a href="mailto:support@kinplug.com">support@kinplug.com</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
