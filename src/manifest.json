@@ -1,0 +1,28 @@
+{
+    "manifest_version": 1,
+    "version": 2,
+    "type": "APP",
+    "name": {
+        "en": "KinPlug Schema Extractor",
+        "ja": "KinPlug スキーマ抽出"
+    },
+    "description": {
+        "en": "Export app schema including fields, process management, actions, and assignees to CSV",
+        "ja": "フィールド、プロセス管理、アクション、担当者などのアプリスキーマをCSVにエクスポート"
+    },
+    "icon": "icon.png",
+    "homepage_url": {
+        "en": "https://kinplug.com",
+        "ja": "https://kinplug.com"
+    },
+    "desktop": {
+        "js": ["js/desktop.js"],
+        "css": ["css/desktop.css"]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": ["js/config.js"],
+        "css": ["css/config.css"],
+        "required_params": []
+    }
+}
